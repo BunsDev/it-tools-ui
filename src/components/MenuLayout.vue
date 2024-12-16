@@ -8,7 +8,7 @@ const siderPosition = computed(() => (isSmallScreen.value ? 'absolute' : 'static
 
 <template>
   <n-layout has-sider>
-    <n-layout-sider
+    <!-- <n-layout-sider
       bordered
       collapse-mode="width"
       :collapsed-width="0"
@@ -19,7 +19,7 @@ const siderPosition = computed(() => (isSmallScreen.value ? 'absolute' : 'static
       :position="siderPosition"
     >
       <slot name="sider" />
-    </n-layout-sider>
+    </n-layout-sider> -->
     <n-layout class="content">
       <slot name="content" />
       <div v-show="isSmallScreen && !isMenuCollapsed" class="overlay" @click="isMenuCollapsed = true" />
