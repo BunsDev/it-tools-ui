@@ -3,7 +3,6 @@ import { useStyleStore } from '@/stores/style.store';
 
 const styleStore = useStyleStore();
 const { isMenuCollapsed, isSmallScreen } = toRefs(styleStore);
-const siderPosition = computed(() => (isSmallScreen.value ? 'absolute' : 'static'));
 </script>
 
 <template>
