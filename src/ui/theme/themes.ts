@@ -4,7 +4,7 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
   light: {
     background: '#ffffff',
     text: {
-      baseColor: '#333639',
+      baseColor: '#333639', // black
       mutedColor: '#767c82',
     },
     default: {
@@ -13,10 +13,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(46, 51, 56, 0.22)',
     },
     primary: {
-      color: '#18a058',
-      colorHover: '#1ea54c',
-      colorPressed: '#0C7A43',
-      colorFaded: '#18a0582f',
+      color: '#FEAEE0',
+      colorHover: '#8AA6F9', // pale blue
+      colorPressed: '#0847F7', // true blue
+      colorFaded: '#FEAEE02f',
     },
     warning: {
       color: '#f59e0b',
@@ -25,10 +25,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorFaded: '#f59e0b2f',
     },
     success: {
-      color: '#18a058',
-      colorHover: '#36ad6a',
-      colorPressed: '#0c7a43',
-      colorFaded: '#18a0582f',
+      color: '#FEAEE0',
+      colorHover: '#8AA6F9', // pale blue
+      colorPressed: '#0847F7', // true blue
+      colorFaded: '#FEAEE02f',
     },
     error: {
       color: '#d03050',
@@ -49,10 +49,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(255, 255, 255, 0.24)',
     },
     primary: {
-      color: '#1ea54c',
-      colorHover: '#36AD6A',
-      colorPressed: '#0C7A43',
-      colorFaded: '#18a0582f',
+      color: '#8AA6F9', // pale blue
+      colorHover: '#8AA6F9', // pale blue
+      colorPressed: '#0847F7', // true blue
+      colorFaded: '#FEAEE02f',
     },
     warning: {
       color: '#f59e0b',
@@ -61,10 +61,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorFaded: '#f59e0b2f',
     },
     success: {
-      color: '#18a058',
-      colorHover: '#36ad6a',
-      colorPressed: '#0c7a43',
-      colorFaded: '#18a0582f',
+      color: '#FEAEE0', // pale pink
+      colorHover: '#8A97F9', // paler blue
+      colorPressed: '#0847F7',
+      colorFaded: '#FEAEE02f',
     },
     error: {
       color: '#e88080',
