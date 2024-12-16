@@ -5,7 +5,7 @@ export const lightThemeOverrides: GlobalThemeOverrides = {
     itemHeight: '32px',
   },
 
-  Layout: { color: '#f1f5f9' },
+  Layout: { color: '#f1f5f9' }, // white
 
   AutoComplete: {
     peers: {
@@ -16,10 +16,10 @@ export const lightThemeOverrides: GlobalThemeOverrides = {
 
 export const darkThemeOverrides: GlobalThemeOverrides = {
   common: {
-    primaryColor: '#1ea54cFF',
-    primaryColorHover: '#36AD6AFF',
-    primaryColorPressed: '#0C7A43FF',
-    primaryColorSuppl: '#36AD6AFF',
+    primaryColor: '#8AA6F9FF',
+    primaryColorHover: '#FEAEE0',
+    primaryColorPressed: '#0847F7FF', // true blue
+    primaryColorSuppl: '#FEAEE0',
   },
 
   Notification: {
@@ -43,8 +43,8 @@ export const darkThemeOverrides: GlobalThemeOverrides = {
   },
 
   Card: {
-    color: '#232323',
-    borderColor: '#282828',
+    color: '#232323', // dark grey
+    borderColor: '#282828', // darker grey
   },
 
   Table: {

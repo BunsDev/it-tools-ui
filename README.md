@@ -133,3 +133,7 @@ Contributor graph is generated using [contrib.rocks](https://contrib.rocks/previ
 ## License
 
 This project is under the [GNU GPLv3](LICENSE).
+
+# Branding (DeDevs)
+## Colors
+Header (pink): #FEAEE0 || 16690912 || hsl(322.5, 31.5%, 99.6%) Buttons & Tabs (pale blue): #8AA6F9 Links & Icons (true blue): #0847F7
